@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Money Macha - AI</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+<div class="app">
+  <div class="bg-blob"></div>
+
+  <div class="header">
+    <div class="sparkle-icon">
+      <img src="asset/Screenshot_2026-03-11_at_1.31.27_AM-removebg-preview.png" alt="Money Macha Logo" />
+    </div>
+    <h1>Money Macha</h1>
+  </div>
+
+  <div class="messages" id="messages">
+  </div>
+
+  <div class="typing-row">
+    <div class="typing" id="typing">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div class="input-area">
+    <div class="input-wrap">
+      <input type="text" id="userInput" placeholder="Ask me about your finance doubts!" autocomplete="off" />
+      <button class="send-btn" id="sendBtn" aria-label="Send">
+        <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Easter Egg Modal -->
+<div class="easter-egg-modal" id="easterEggModal">
+  <div class="easter-egg-content">
+    <div class="popping-animation"></div>
+    <h2>✨ You found me! ✨</h2>
+    <p>Built by</p>
+    <h3>Yuva Shankar Narayana</h3>
+    <p class="subtitle">Macha - Your AI Finance Companion</p>
+    <button class="close-easter-egg" id="closeEasterEgg">Close</button>
+  </div>
+</div>
+
+<script src="static/script.js"></script>
+</body>
+</html>
