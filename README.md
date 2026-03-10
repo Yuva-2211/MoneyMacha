@@ -74,7 +74,7 @@ Generated Answer
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_LINK
+git clone git@github.com:Yuva-2211/MoneyMacha.git
 cd financial-rag-assistant
 ```
 
