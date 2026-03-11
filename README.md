@@ -1,4 +1,4 @@
-# Financial Conversational RAG Assistant
+# Money Macha 
 
 A Retrieval-Augmented Generation (RAG) based conversational assistant that answers financial questions using information from financial books and research reports.
 
@@ -68,7 +68,48 @@ Generated Answer
 * Research reports
 
 ---
+## WireFrames 
 
+Initial interface planning and layout were designed using draw.io before implementation.
+These wireframes helped define the conversational layout, message flow, and UI structure.
+
+Chat Interface Wireframe
+
+
+![Wireframe](images/wireframe.png)
+
+---
+## User Interface
+#### Desktop View
+
+The desktop interface provides a full conversational layout optimized for larger screens, allowing users to interact with the financial assistant and view responses clearly.
+
+
+![Desktop UI](images/desktop.png)
+
+#### Mobile View
+
+The mobile interface is optimized for smaller screens while maintaining a smooth conversational experience.
+
+
+![Mobile UI](images/mobile.png)
+
+---
+## UI Design Process
+
+The interface was designed with a focus on simplicity and usability:
+
+Conversational chat layout
+
+Clear question and response separation
+
+Minimal distractions
+
+Responsive design for desktop and mobile devices
+
+Wireframes were first created in draw.io, then implemented in the final application.
+
+---
 ## Installation
 
 Clone the repository
