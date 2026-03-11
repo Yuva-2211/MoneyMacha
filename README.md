@@ -8,7 +8,7 @@ A Retrieval-Augmented Generation (RAG) based conversational assistant that answe
 
 Try the assistant here
 
-https://huggingface.co/spaces/YOUR_HF_LINK
+https://huggingface.co/spaces/yuva-2211/MoneyMacha
 
 ---
 
@@ -105,13 +105,6 @@ python main.py
 The project is deployed on **Hugging Face Spaces**
 
 Live App
-https://huggingface.co/spaces/YOUR_HF_LINK
+[https://huggingface.co/spaces/YOUR_HF_LINK](https://huggingface.co/spaces/yuva-2211/MoneyMacha)
 
 ---
-
-## Future Improvements
-
-* Source citations for retrieved chunks
-* Hybrid search (BM25 + vector)
-* Streamlit/FastAPI UI
-* RAG evaluation metrics
