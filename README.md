@@ -92,7 +92,7 @@ The desktop interface provides a full conversational layout optimized for larger
 The mobile interface is optimized for smaller screens while maintaining a smooth conversational experience.
 
 
-![Mobile UI](images/mobile.png)
+![Mobile UI](images/mobile.jpeg)
 
 ---
 ## UI Design Process
